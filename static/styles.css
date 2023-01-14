@@ -1,0 +1,232 @@
+
+p {
+
+    font-size: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+
+
+}
+
+body {
+    display: block;
+    background-color: white;
+
+
+}
+
+button  {
+  background-color: white; /* Green */
+  color: white;
+  height: 45px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px 16px;
+  text-align: center;
+  font-size: 20px;
+  color: #b79c6b;
+  border: solid 2px;
+  border-radius: 3px;
+  border-color: #b79c6b;
+  border: none;
+
+    }
+
+button:hover {
+    background-color:black
+
+}
+
+hr {
+    color: #b79c6b;
+    height: 3px;
+    border-top-width: 5px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color:  #b79c6b;
+    border-radius: 3px;
+
+}
+
+
+.About{
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Code for the projects container*/
+.projects-container {
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align:center;
+    padding-top: 100px;
+
+}
+
+.projects  {
+    display: inline-grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 50px;
+    row-gap: 150px;
+
+    /* can also use gap for both the rows and the columns */
+}
+.item1 {
+    grid-row: 1 1;
+    grid-column: 1 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.item2 {
+    grid-row: 1 1;
+    grid-column: 2 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.item3 {
+    grid-row: 1 1;
+    grid-column: 3 3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+link {
+
+}
+
+
+/* Code for the resume container */
+
+.resume-container {
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Code for the bottom container */
+
+
+.bottom-container {
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align:center;
+    padding-top: 100px;
+
+
+}
+
+a.footer-link{
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+
+
+.skills-container {
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align:center;
+    padding-bottom: 0;
+
+
+}
+
+
+
+h1 {
+    color: black;
+    font-size: 90px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 0px;
+
+}
+
+h2 {
+
+    align-text: center;
+    color: #b79c6b;
+
+}
+
+h2.description {
+
+    color: #b79c6b;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', cursive
+}
+h3 {
+    color: black;
+    font-family: 'Montserrat', cursive;
+
+}
+
+
+
+div {
+    background-color:  white;
+
+}
+
+.header {
+    background-color: white;
+    height: 50px;
+    text-align: right;
+
+    }
+
+
+li  {
+
+padding: 10px;
+
+}
+.resume {
+align-text: left;
+
+}
+
+#resume-header {
+
+text-align:center;
+
+
+}
+
+img {
+
+padding-left: 50px
+}
+
+
+a {
+
+background-color: white;
+}
+
+
+
+.
